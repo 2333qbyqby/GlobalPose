@@ -1,0 +1,10 @@
+---
+description: 本仓库 Python 代码风格与库使用约定
+alwaysApply: false
+---
+# Python 约定
+
+- 导入顺序：标准库 → 第三方（`numpy`、`torch`、`scipy` 等）→ 本地 `articulate` / `carticulate`；与现有文件保持一致。
+- 使用 PyTorch 时，注意张量设备与 `dtype`，尽量沿用同文件中的构造方式（如 `torch.zeros` 形状）。
+- 需要类型注解时与周围模块齐平；不要为了注解而大规模改写未触及的函数签名。
+- 可视化与 I/O（OpenCV、Open3D、pickle 等）遵循包内 `articulate.utils.*` 既有模式，避免重复造轮子。
