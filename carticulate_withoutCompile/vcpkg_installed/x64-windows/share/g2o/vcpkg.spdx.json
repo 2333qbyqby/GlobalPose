@@ -1,0 +1,131 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/g2o-x64-windows-2024-12-14#99-e57135fb-b842-4481-a9b0-9cb3fc6118fe",
+  "name": "g2o:x64-windows@2024-12-14#99 783bcafbd0a97cb2e7bd1c0f19f90268e9463fe0895ba70f22f66490232a22b9",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2025-03-13-7699e411ea11543de6abc0c7d5fd11cfe0039ae5"
+    ],
+    "created": "2026-03-29T16:49:46Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "g2o",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "2024-12-14#99",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Overlay: g2o core/stuff/dense only (no Ceres/LAPACK/SuiteSparse). Matches upstream portfile commit.",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "g2o:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "783bcafbd0a97cb2e7bd1c0f19f90268e9463fe0895ba70f22f66490232a22b9",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-0",
+      "name": "RainerKuemmerle/g2o",
+      "downloadLocation": "git+https://github.com/RainerKuemmerle/g2o@eec325a1da1273e87bc97887d49e70570f28570c",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "22d3d546fbc92bff4767b66dcc9a001b5ed0cac0787874dda8712140aa03004b0312f702ea7d61c5fdcfa0bb00654c873f8b99899cd9e2b89667d8d99667d5cd"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./E:/SchoolWork/projects/GlobalPose/carticulate_withoutCompile/./vcpkg-overlay-ports/g2o/fix-absolute.patch",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "65c595a10f6c0ccc1de32d5a0aeb1f1761cbe3ab28abe97b8e0ed683c9fe09fa"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./E:/SchoolWork/projects/GlobalPose/carticulate_withoutCompile/./vcpkg-overlay-ports/g2o/portfile.cmake",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d87b44907e539665e58f89503432802d1062f68a9c5986e28b4552dd4261fdd2"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./E:/SchoolWork/projects/GlobalPose/carticulate_withoutCompile/./vcpkg-overlay-ports/g2o/vcpkg.json",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0199232c3bec388b14338acb63846256c108d3e1aa9aeef96628353065b7277f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

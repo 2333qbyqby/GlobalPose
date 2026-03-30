@@ -1,0 +1,43 @@
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 1eecdc38f8f427e0632d199cc6b5c3591d9a03c22c8be70ccd20956dddfab5b7
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2024-04-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: f872c7ab95bca43bfe45858f6981ef2b7d457e18510791d5848da6bb1dadc2a7
+Status: install ok installed
+
+Package: eigen3
+Version: 3.4.0
+Port-Version: 5
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 42551a5c13fdd55e0cdb906404508f695a2acaecc146c9752ceacfac08c86c15
+Description: C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
+Status: install ok installed
+
+Package: g2o
+Version: 2024-12-14
+Port-Version: 99
+Depends: eigen3, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 783bcafbd0a97cb2e7bd1c0f19f90268e9463fe0895ba70f22f66490232a22b9
+Description: Overlay: g2o core/stuff/dense only (no Ceres/LAPACK/SuiteSparse). Matches upstream portfile commit.
+Status: install ok installed
+
+Package: sophus
+Version: 1.24.6-r1
+Depends: eigen3, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: e458534eb18bb4f01ea7440572b49b70172da2e3e895cc54d12d2684da36e1a8
+Description: Lie group library for C++
+Status: install ok installed
+
