@@ -7,6 +7,7 @@ vcpkg_from_github(
     HEAD_REF master
     PATCHES
         fix-absolute.patch
+        eigen3-config-find.patch
 )
 
 string(COMPARE EQUAL "${VCPKG_LIBRARY_LINKAGE}" "dynamic" BUILD_LGPL_SHARED_LIBS)

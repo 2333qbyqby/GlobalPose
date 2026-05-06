@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "参考论文1 GlobalPose",
+			"path": "."
+		},
+		{
+
+			"name": "参考论文2 pip",
+			"path": "../PIP"
+		},
+		{
+			"name": "论文项目1 ",
+			"path": "../SIGGRAPH2024Unity"
+		},
+		
+	],
+	"settings": {
+		"specstory.cloudSync.enabled": "never"
+	}
+}

@@ -1,7 +1,7 @@
 {
   "name": "g2o",
   "version-date": "2024-12-14",
-  "port-version": 99,
+  "port-version": 101,
   "description": "Overlay: g2o core/stuff/dense only (no Ceres/LAPACK/SuiteSparse). Matches upstream portfile commit.",
   "dependencies": [
     "eigen3",

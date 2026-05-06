@@ -7,7 +7,7 @@ if(CMAKE_VERSION VERSION_LESS "3.0.0")
    message(FATAL_ERROR "CMake >= 3.0.0 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 3.0.0...3.29)
+cmake_policy(VERSION 3.0.0...4.0)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -58,6 +58,7 @@ endif()
 add_library(Eigen3::Eigen INTERFACE IMPORTED)
 
 set_target_properties(Eigen3::Eigen PROPERTIES
+  INTERFACE_COMPILE_FEATURES "cxx_std_14"
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include/eigen3"
 )
 

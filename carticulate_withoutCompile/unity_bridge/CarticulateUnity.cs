@@ -57,6 +57,24 @@ namespace Carticulate
         [DllImport(Dll, CallingConvention = CallingConvention.Cdecl)]
         public static extern int CU_Dynamic_GetJointWorldQuat(long handle, int jointIdx, float[] outWxyz);
 
+        [DllImport(Dll, CallingConvention = CallingConvention.Cdecl)]
+        public static extern int CU_Dynamic_GetMassMatrix(long handle, float[] outMassRowMajor, int outLen);
+
+        [DllImport(Dll, CallingConvention = CallingConvention.Cdecl)]
+        public static extern int CU_Dynamic_GetBiasForce(long handle, float[] outH, int outLen);
+
+        [DllImport(Dll, CallingConvention = CallingConvention.Cdecl)]
+        public static extern int CU_Dynamic_InverseDynamics(long handle, float[] acc, int accLen, float[] outForce, int outLen);
+
+        [DllImport(Dll, CallingConvention = CallingConvention.Cdecl)]
+        public static extern int CU_Dynamic_GetJointLinearVelocity(long handle, int jointIdx, float[] localXyz, float[] outWorldVxyz);
+
+        [DllImport(Dll, CallingConvention = CallingConvention.Cdecl)]
+        public static extern int CU_Dynamic_GetJointLinearJacobian(long handle, int jointIdx, float[] localXyz, float[] outJRowMajor, int outLen);
+
+        [DllImport(Dll, CallingConvention = CallingConvention.Cdecl)]
+        public static extern int CU_Dynamic_GetJointLinearJacobianDot(long handle, int jointIdx, float[] localXyz, float[] outJdotRowMajor, int outLen);
+
         [DllImport(Dll, CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
         public static extern int CU_Kinematic_Create(string armaturePathUtf8, out long handle);
 

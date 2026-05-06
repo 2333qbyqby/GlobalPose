@@ -68,6 +68,42 @@ CU_API int CU_Dynamic_GetJointWorldQuat(int64_t handle,
                                         int joint_idx,
                                         float out_wxyz[4]);
 
+/** out_mass_row_major length must be vel_dim * vel_dim (row-major). */
+CU_API int CU_Dynamic_GetMassMatrix(int64_t handle,
+                                    float *out_mass_row_major,
+                                    int out_len);
+
+/** out_h length must be vel_dim. Equivalent to inverse_dynamics(acc=0). */
+CU_API int CU_Dynamic_GetBiasForce(int64_t handle,
+                                   float *out_h,
+                                   int out_len);
+
+/** out_force length must be vel_dim. */
+CU_API int CU_Dynamic_InverseDynamics(int64_t handle,
+                                      const float *acc,
+                                      int acc_len,
+                                      float *out_force,
+                                      int out_len);
+
+CU_API int CU_Dynamic_GetJointLinearVelocity(int64_t handle,
+                                             int joint_idx,
+                                             const float local_xyz[3],
+                                             float out_world_vxyz[3]);
+
+/** out_j_row_major length must be 3 * vel_dim (row-major). */
+CU_API int CU_Dynamic_GetJointLinearJacobian(int64_t handle,
+                                             int joint_idx,
+                                             const float local_xyz[3],
+                                             float *out_j_row_major,
+                                             int out_len);
+
+/** out_jdot_row_major length must be 3 * vel_dim (row-major). */
+CU_API int CU_Dynamic_GetJointLinearJacobianDot(int64_t handle,
+                                                int joint_idx,
+                                                const float local_xyz[3],
+                                                float *out_jdot_row_major,
+                                                int out_len);
+
 /* ---------- KinematicModel (no physics integration) ---------- */
 
 CU_API int CU_Kinematic_Create(const char *armature_path_utf8, int64_t *out_handle);

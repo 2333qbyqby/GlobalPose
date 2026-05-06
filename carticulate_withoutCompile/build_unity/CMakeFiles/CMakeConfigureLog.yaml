@@ -1,0 +1,1391 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/"
+    found: "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows"
+      ENV{PATH}:
+        - "D:\\Meta Horizon\\Support\\oculus-runtime"
+        - "D:\\DevTools\\Bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "D:\\Tools\\PlasticSCM5\\server"
+        - "D:\\Tools\\PlasticSCM5\\client"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Tools\\Git\\cmd"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "D:\\Tools\\cursor\\resources\\app\\bin"
+        - "D:\\Tools\\Cmake\\bin"
+        - "C:\\Program Files (x86)\\Tencent\\\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177\\dll"
+        - "D:\\Tools\\Nodejs\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\VSCode\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Administrator\\AppData\\Local\\GitHubDesktop\\bin"
+        - "D:\\Tools\\Antigravity\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+      鐢熸垚鍚姩鏃堕棿涓?2026/3/30 22:52:50銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Projects\\SchoolWorkProjects\\firstPaperRalated\\GlobalPose\\carticulate_withoutCompile\\build_unity\\CMakeFiles\\4.2.0-rc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        D:\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Projects\\SchoolWorkProjects\\firstPaperRalated\\GlobalPose\\carticulate_withoutCompile\\build_unity\\CMakeFiles\\4.2.0-rc4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淒:\\Projects\\SchoolWorkProjects\\firstPaperRalated\\GlobalPose\\carticulate_withoutCompile\\build_unity\\CMakeFiles\\4.2.0-rc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:00.73
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/build_unity/CMakeFiles/4.2.0-rc4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/VisualStudio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "D:/Meta Horizon/Support/oculus-runtime/"
+      - "D:/DevTools/Bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/"
+      - "D:/Tools/PlasticSCM5/server/"
+      - "D:/Tools/PlasticSCM5/client/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Tools/Git/cmd/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/usr/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "D:/Tools/cursor/resources/app/bin/"
+      - "D:/Tools/Cmake/bin/"
+      - "C:/Program Files (x86)/Tencent/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/"
+      - "D:/Tools/Nodejs/"
+      - "C:/Users/Administrator/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/VSCode/Microsoft VS Code/bin/"
+      - "C:/Users/Administrator/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/Administrator/AppData/Local/GitHubDesktop/bin/"
+      - "D:/Tools/Antigravity/bin/"
+      - "C:/Users/Administrator/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/VisualStudio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "D:/VisualStudio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows"
+      ENV{PATH}:
+        - "D:\\Meta Horizon\\Support\\oculus-runtime"
+        - "D:\\DevTools\\Bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "D:\\Tools\\PlasticSCM5\\server"
+        - "D:\\Tools\\PlasticSCM5\\client"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Tools\\Git\\cmd"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "D:\\Tools\\cursor\\resources\\app\\bin"
+        - "D:\\Tools\\Cmake\\bin"
+        - "C:\\Program Files (x86)\\Tencent\\\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177\\dll"
+        - "D:\\Tools\\Nodejs\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\VSCode\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Administrator\\AppData\\Local\\GitHubDesktop\\bin"
+        - "D:\\Tools\\Antigravity\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "D:/VisualStudio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "D:/Meta Horizon/Support/oculus-runtime/"
+      - "D:/DevTools/Bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/"
+      - "D:/Tools/PlasticSCM5/server/"
+      - "D:/Tools/PlasticSCM5/client/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Tools/Git/cmd/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/usr/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "D:/Tools/cursor/resources/app/bin/"
+      - "D:/Tools/Cmake/bin/"
+      - "C:/Program Files (x86)/Tencent/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/"
+      - "D:/Tools/Nodejs/"
+      - "C:/Users/Administrator/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/VSCode/Microsoft VS Code/bin/"
+      - "C:/Users/Administrator/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/Administrator/AppData/Local/GitHubDesktop/bin/"
+      - "D:/Tools/Antigravity/bin/"
+      - "C:/Users/Administrator/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/VisualStudio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "D:/VisualStudio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "D:/VisualStudio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "D:/Meta Horizon/Support/oculus-runtime/lld-link.com"
+      - "D:/Meta Horizon/Support/oculus-runtime/lld-link.exe"
+      - "D:/Meta Horizon/Support/oculus-runtime/lld-link"
+      - "D:/DevTools/Bin/lld-link.com"
+      - "D:/DevTools/Bin/lld-link.exe"
+      - "D:/DevTools/Bin/lld-link"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/lld-link.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/lld-link.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/lld-link"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/lld-link.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/lld-link.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/lld-link"
+      - "D:/Tools/PlasticSCM5/server/lld-link.com"
+      - "D:/Tools/PlasticSCM5/server/lld-link.exe"
+      - "D:/Tools/PlasticSCM5/server/lld-link"
+      - "D:/Tools/PlasticSCM5/client/lld-link.com"
+      - "D:/Tools/PlasticSCM5/client/lld-link.exe"
+      - "D:/Tools/PlasticSCM5/client/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "D:/Tools/Git/cmd/lld-link.com"
+      - "D:/Tools/Git/cmd/lld-link.exe"
+      - "D:/Tools/Git/cmd/lld-link"
+      - "D:/Anaconda/lld-link.com"
+      - "D:/Anaconda/lld-link.exe"
+      - "D:/Anaconda/lld-link"
+      - "D:/Anaconda/Scripts/lld-link.com"
+      - "D:/Anaconda/Scripts/lld-link.exe"
+      - "D:/Anaconda/Scripts/lld-link"
+      - "D:/Anaconda/Library/usr/bin/lld-link.com"
+      - "D:/Anaconda/Library/usr/bin/lld-link.exe"
+      - "D:/Anaconda/Library/usr/bin/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/lld-link"
+      - "D:/Tools/cursor/resources/app/bin/lld-link.com"
+      - "D:/Tools/cursor/resources/app/bin/lld-link.exe"
+      - "D:/Tools/cursor/resources/app/bin/lld-link"
+      - "D:/Tools/Cmake/bin/lld-link.com"
+      - "D:/Tools/Cmake/bin/lld-link.exe"
+      - "D:/Tools/Cmake/bin/lld-link"
+      - "C:/Program Files (x86)/Tencent/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/lld-link.com"
+      - "C:/Program Files (x86)/Tencent/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/lld-link.exe"
+      - "C:/Program Files (x86)/Tencent/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/lld-link"
+      - "D:/Tools/Nodejs/lld-link.com"
+      - "D:/Tools/Nodejs/lld-link.exe"
+      - "D:/Tools/Nodejs/lld-link"
+      - "C:/Users/Administrator/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/Administrator/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/Administrator/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "D:/VSCode/Microsoft VS Code/bin/lld-link.com"
+      - "D:/VSCode/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/VSCode/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/Administrator/AppData/Local/JetBrains/Toolbox/scripts/lld-link.com"
+      - "C:/Users/Administrator/AppData/Local/JetBrains/Toolbox/scripts/lld-link.exe"
+      - "C:/Users/Administrator/AppData/Local/JetBrains/Toolbox/scripts/lld-link"
+      - "C:/Users/Administrator/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/Administrator/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/Administrator/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "D:/Tools/Antigravity/bin/lld-link.com"
+      - "D:/Tools/Antigravity/bin/lld-link.exe"
+      - "D:/Tools/Antigravity/bin/lld-link"
+      - "C:/Users/Administrator/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/Administrator/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/Administrator/AppData/Roaming/npm/lld-link"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows"
+      ENV{PATH}:
+        - "D:\\Meta Horizon\\Support\\oculus-runtime"
+        - "D:\\DevTools\\Bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "D:\\Tools\\PlasticSCM5\\server"
+        - "D:\\Tools\\PlasticSCM5\\client"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Tools\\Git\\cmd"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "D:\\Tools\\cursor\\resources\\app\\bin"
+        - "D:\\Tools\\Cmake\\bin"
+        - "C:\\Program Files (x86)\\Tencent\\\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177\\dll"
+        - "D:\\Tools\\Nodejs\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\VSCode\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Administrator\\AppData\\Local\\GitHubDesktop\\bin"
+        - "D:\\Tools\\Antigravity\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/VisualStudio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "D:/Meta Horizon/Support/oculus-runtime/"
+      - "D:/DevTools/Bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/"
+      - "D:/Tools/PlasticSCM5/server/"
+      - "D:/Tools/PlasticSCM5/client/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Tools/Git/cmd/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/usr/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "D:/Tools/cursor/resources/app/bin/"
+      - "D:/Tools/Cmake/bin/"
+      - "C:/Program Files (x86)/Tencent/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/"
+      - "D:/Tools/Nodejs/"
+      - "C:/Users/Administrator/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/VSCode/Microsoft VS Code/bin/"
+      - "C:/Users/Administrator/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/Administrator/AppData/Local/GitHubDesktop/bin/"
+      - "D:/Tools/Antigravity/bin/"
+      - "C:/Users/Administrator/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/VisualStudio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "D:/VisualStudio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows"
+      ENV{PATH}:
+        - "D:\\Meta Horizon\\Support\\oculus-runtime"
+        - "D:\\DevTools\\Bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "D:\\Tools\\PlasticSCM5\\server"
+        - "D:\\Tools\\PlasticSCM5\\client"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Tools\\Git\\cmd"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "D:\\Tools\\cursor\\resources\\app\\bin"
+        - "D:\\Tools\\Cmake\\bin"
+        - "C:\\Program Files (x86)\\Tencent\\\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177\\dll"
+        - "D:\\Tools\\Nodejs\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\VSCode\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Administrator\\AppData\\Local\\GitHubDesktop\\bin"
+        - "D:\\Tools\\Antigravity\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "D:/VisualStudio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "D:/Meta Horizon/Support/oculus-runtime/"
+      - "D:/DevTools/Bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/"
+      - "D:/Tools/PlasticSCM5/server/"
+      - "D:/Tools/PlasticSCM5/client/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Tools/Git/cmd/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/usr/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "D:/Tools/cursor/resources/app/bin/"
+      - "D:/Tools/Cmake/bin/"
+      - "C:/Program Files (x86)/Tencent/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/"
+      - "D:/Tools/Nodejs/"
+      - "C:/Users/Administrator/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/VSCode/Microsoft VS Code/bin/"
+      - "C:/Users/Administrator/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/Administrator/AppData/Local/GitHubDesktop/bin/"
+      - "D:/Tools/Antigravity/bin/"
+      - "C:/Users/Administrator/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/VisualStudio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
+      - "D:/VisualStudio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
+      - "D:/VisualStudio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "D:/Meta Horizon/Support/oculus-runtime/mt.com"
+      - "D:/Meta Horizon/Support/oculus-runtime/mt.exe"
+      - "D:/Meta Horizon/Support/oculus-runtime/mt"
+      - "D:/DevTools/Bin/mt.com"
+      - "D:/DevTools/Bin/mt.exe"
+      - "D:/DevTools/Bin/mt"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/mt.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/mt.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/mt"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/mt.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/mt.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/mt"
+      - "D:/Tools/PlasticSCM5/server/mt.com"
+      - "D:/Tools/PlasticSCM5/server/mt.exe"
+      - "D:/Tools/PlasticSCM5/server/mt"
+      - "D:/Tools/PlasticSCM5/client/mt.com"
+      - "D:/Tools/PlasticSCM5/client/mt.exe"
+      - "D:/Tools/PlasticSCM5/client/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "D:/Tools/Git/cmd/mt.com"
+      - "D:/Tools/Git/cmd/mt.exe"
+      - "D:/Tools/Git/cmd/mt"
+      - "D:/Anaconda/mt.com"
+      - "D:/Anaconda/mt.exe"
+      - "D:/Anaconda/mt"
+      - "D:/Anaconda/Scripts/mt.com"
+      - "D:/Anaconda/Scripts/mt.exe"
+      - "D:/Anaconda/Scripts/mt"
+      - "D:/Anaconda/Library/usr/bin/mt.com"
+      - "D:/Anaconda/Library/usr/bin/mt.exe"
+      - "D:/Anaconda/Library/usr/bin/mt"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/mt"
+      - "D:/Tools/cursor/resources/app/bin/mt.com"
+      - "D:/Tools/cursor/resources/app/bin/mt.exe"
+      - "D:/Tools/cursor/resources/app/bin/mt"
+      - "D:/Tools/Cmake/bin/mt.com"
+      - "D:/Tools/Cmake/bin/mt.exe"
+      - "D:/Tools/Cmake/bin/mt"
+      - "C:/Program Files (x86)/Tencent/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/mt.com"
+      - "C:/Program Files (x86)/Tencent/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/mt.exe"
+      - "C:/Program Files (x86)/Tencent/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/mt"
+      - "D:/Tools/Nodejs/mt.com"
+      - "D:/Tools/Nodejs/mt.exe"
+      - "D:/Tools/Nodejs/mt"
+      - "C:/Users/Administrator/AppData/Local/Programs/Python/Launcher/mt.com"
+      - "C:/Users/Administrator/AppData/Local/Programs/Python/Launcher/mt.exe"
+      - "C:/Users/Administrator/AppData/Local/Programs/Python/Launcher/mt"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/mt"
+      - "D:/VSCode/Microsoft VS Code/bin/mt.com"
+      - "D:/VSCode/Microsoft VS Code/bin/mt.exe"
+      - "D:/VSCode/Microsoft VS Code/bin/mt"
+      - "C:/Users/Administrator/AppData/Local/JetBrains/Toolbox/scripts/mt.com"
+      - "C:/Users/Administrator/AppData/Local/JetBrains/Toolbox/scripts/mt.exe"
+      - "C:/Users/Administrator/AppData/Local/JetBrains/Toolbox/scripts/mt"
+      - "C:/Users/Administrator/AppData/Local/GitHubDesktop/bin/mt.com"
+      - "C:/Users/Administrator/AppData/Local/GitHubDesktop/bin/mt.exe"
+      - "C:/Users/Administrator/AppData/Local/GitHubDesktop/bin/mt"
+      - "D:/Tools/Antigravity/bin/mt.com"
+      - "D:/Tools/Antigravity/bin/mt.exe"
+      - "D:/Tools/Antigravity/bin/mt"
+      - "C:/Users/Administrator/AppData/Roaming/npm/mt.com"
+      - "C:/Users/Administrator/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/Administrator/AppData/Roaming/npm/mt"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows"
+      ENV{PATH}:
+        - "D:\\Meta Horizon\\Support\\oculus-runtime"
+        - "D:\\DevTools\\Bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "D:\\Tools\\PlasticSCM5\\server"
+        - "D:\\Tools\\PlasticSCM5\\client"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Tools\\Git\\cmd"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "D:\\Tools\\cursor\\resources\\app\\bin"
+        - "D:\\Tools\\Cmake\\bin"
+        - "C:\\Program Files (x86)\\Tencent\\\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177\\dll"
+        - "D:\\Tools\\Nodejs\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\VSCode\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Administrator\\AppData\\Local\\GitHubDesktop\\bin"
+        - "D:\\Tools\\Antigravity\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "D:/VisualStudio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "D:/Meta Horizon/Support/oculus-runtime/"
+      - "D:/DevTools/Bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/"
+      - "D:/Tools/PlasticSCM5/server/"
+      - "D:/Tools/PlasticSCM5/client/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Tools/Git/cmd/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/usr/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "D:/Tools/cursor/resources/app/bin/"
+      - "D:/Tools/Cmake/bin/"
+      - "C:/Program Files (x86)/Tencent/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/"
+      - "D:/Tools/Nodejs/"
+      - "C:/Users/Administrator/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/VSCode/Microsoft VS Code/bin/"
+      - "C:/Users/Administrator/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/Administrator/AppData/Local/GitHubDesktop/bin/"
+      - "D:/Tools/Antigravity/bin/"
+      - "C:/Users/Administrator/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/VisualStudio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
+    found: "D:/VisualStudio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows"
+      ENV{PATH}:
+        - "D:\\Meta Horizon\\Support\\oculus-runtime"
+        - "D:\\DevTools\\Bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "D:\\Tools\\PlasticSCM5\\server"
+        - "D:\\Tools\\PlasticSCM5\\client"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Tools\\Git\\cmd"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "D:\\Tools\\cursor\\resources\\app\\bin"
+        - "D:\\Tools\\Cmake\\bin"
+        - "C:\\Program Files (x86)\\Tencent\\\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177\\dll"
+        - "D:\\Tools\\Nodejs\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\VSCode\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Administrator\\AppData\\Local\\GitHubDesktop\\bin"
+        - "D:\\Tools\\Antigravity\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:580 (enable_language)"
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:553 (__windows_compiler_msvc_enable_rc)"
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows/bin/"
+      - "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows/sbin/"
+      - "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows/"
+      - "D:/Meta Horizon/Support/oculus-runtime/"
+      - "D:/DevTools/Bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/"
+      - "D:/Tools/PlasticSCM5/server/"
+      - "D:/Tools/PlasticSCM5/client/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Tools/Git/cmd/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/usr/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "D:/Tools/cursor/resources/app/bin/"
+      - "D:/Tools/Cmake/bin/"
+      - "C:/Program Files (x86)/Tencent/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/"
+      - "D:/Tools/Nodejs/"
+      - "C:/Users/Administrator/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/VSCode/Microsoft VS Code/bin/"
+      - "C:/Users/Administrator/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/Administrator/AppData/Local/GitHubDesktop/bin/"
+      - "D:/Tools/Antigravity/bin/"
+      - "C:/Users/Administrator/AppData/Roaming/npm/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/Tools/Cmake/bin/"
+      - "D:/Tools/Cmake/sbin/"
+      - "D:/Tools/Cmake/"
+      - "C:/Program Files/carticulate/bin/"
+      - "C:/Program Files/carticulate/sbin/"
+      - "C:/Program Files/carticulate/"
+    searched_directories:
+      - "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows/bin/rc.com"
+      - "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows/bin/rc.exe"
+      - "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows/bin/rc"
+      - "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows/sbin/rc.com"
+      - "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows/sbin/rc.exe"
+      - "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows/sbin/rc"
+      - "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows/rc.com"
+      - "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows/rc.exe"
+      - "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows/rc"
+      - "D:/Meta Horizon/Support/oculus-runtime/rc.com"
+      - "D:/Meta Horizon/Support/oculus-runtime/rc.exe"
+      - "D:/Meta Horizon/Support/oculus-runtime/rc"
+      - "D:/DevTools/Bin/rc.com"
+      - "D:/DevTools/Bin/rc.exe"
+      - "D:/DevTools/Bin/rc"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/rc.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/rc.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/rc"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/rc.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/rc.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/rc"
+      - "D:/Tools/PlasticSCM5/server/rc.com"
+      - "D:/Tools/PlasticSCM5/server/rc.exe"
+      - "D:/Tools/PlasticSCM5/server/rc"
+      - "D:/Tools/PlasticSCM5/client/rc.com"
+      - "D:/Tools/PlasticSCM5/client/rc.exe"
+      - "D:/Tools/PlasticSCM5/client/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "D:/Tools/Git/cmd/rc.com"
+      - "D:/Tools/Git/cmd/rc.exe"
+      - "D:/Tools/Git/cmd/rc"
+      - "D:/Anaconda/rc.com"
+      - "D:/Anaconda/rc.exe"
+      - "D:/Anaconda/rc"
+      - "D:/Anaconda/Scripts/rc.com"
+      - "D:/Anaconda/Scripts/rc.exe"
+      - "D:/Anaconda/Scripts/rc"
+      - "D:/Anaconda/Library/usr/bin/rc.com"
+      - "D:/Anaconda/Library/usr/bin/rc.exe"
+      - "D:/Anaconda/Library/usr/bin/rc"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/rc"
+      - "D:/Tools/cursor/resources/app/bin/rc.com"
+      - "D:/Tools/cursor/resources/app/bin/rc.exe"
+      - "D:/Tools/cursor/resources/app/bin/rc"
+      - "D:/Tools/Cmake/bin/rc.com"
+      - "D:/Tools/Cmake/bin/rc.exe"
+      - "D:/Tools/Cmake/bin/rc"
+      - "C:/Program Files (x86)/Tencent/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/rc.com"
+      - "C:/Program Files (x86)/Tencent/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/rc.exe"
+      - "C:/Program Files (x86)/Tencent/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/rc"
+      - "D:/Tools/Nodejs/rc.com"
+      - "D:/Tools/Nodejs/rc.exe"
+      - "D:/Tools/Nodejs/rc"
+      - "C:/Users/Administrator/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/Administrator/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/Administrator/AppData/Local/Programs/Python/Launcher/rc"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/rc"
+      - "D:/VSCode/Microsoft VS Code/bin/rc.com"
+      - "D:/VSCode/Microsoft VS Code/bin/rc.exe"
+      - "D:/VSCode/Microsoft VS Code/bin/rc"
+      - "C:/Users/Administrator/AppData/Local/JetBrains/Toolbox/scripts/rc.com"
+      - "C:/Users/Administrator/AppData/Local/JetBrains/Toolbox/scripts/rc.exe"
+      - "C:/Users/Administrator/AppData/Local/JetBrains/Toolbox/scripts/rc"
+      - "C:/Users/Administrator/AppData/Local/GitHubDesktop/bin/rc.com"
+      - "C:/Users/Administrator/AppData/Local/GitHubDesktop/bin/rc.exe"
+      - "C:/Users/Administrator/AppData/Local/GitHubDesktop/bin/rc"
+      - "D:/Tools/Antigravity/bin/rc.com"
+      - "D:/Tools/Antigravity/bin/rc.exe"
+      - "D:/Tools/Antigravity/bin/rc"
+      - "C:/Users/Administrator/AppData/Roaming/npm/rc.com"
+      - "C:/Users/Administrator/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/Administrator/AppData/Roaming/npm/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "D:/Tools/Cmake/bin/rc.com"
+      - "D:/Tools/Cmake/bin/rc.exe"
+      - "D:/Tools/Cmake/bin/rc"
+      - "D:/Tools/Cmake/sbin/rc.com"
+      - "D:/Tools/Cmake/sbin/rc.exe"
+      - "D:/Tools/Cmake/sbin/rc"
+      - "D:/Tools/Cmake/rc.com"
+      - "D:/Tools/Cmake/rc.exe"
+      - "D:/Tools/Cmake/rc"
+      - "C:/Program Files/carticulate/bin/rc.com"
+      - "C:/Program Files/carticulate/bin/rc.exe"
+      - "C:/Program Files/carticulate/bin/rc"
+      - "C:/Program Files/carticulate/sbin/rc.com"
+      - "C:/Program Files/carticulate/sbin/rc.exe"
+      - "C:/Program Files/carticulate/sbin/rc"
+      - "C:/Program Files/carticulate/rc.com"
+      - "C:/Program Files/carticulate/rc.exe"
+      - "C:/Program Files/carticulate/rc"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows"
+      ENV{PATH}:
+        - "D:\\Meta Horizon\\Support\\oculus-runtime"
+        - "D:\\DevTools\\Bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "D:\\Tools\\PlasticSCM5\\server"
+        - "D:\\Tools\\PlasticSCM5\\client"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Tools\\Git\\cmd"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "D:\\Tools\\cursor\\resources\\app\\bin"
+        - "D:\\Tools\\Cmake\\bin"
+        - "C:\\Program Files (x86)\\Tencent\\\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177\\dll"
+        - "D:\\Tools\\Nodejs\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\VSCode\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Administrator\\AppData\\Local\\GitHubDesktop\\bin"
+        - "D:\\Tools\\Antigravity\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/carticulate"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/Tools/Cmake"
+        - "C:/Program Files/carticulate"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/build_unity/CMakeFiles/CMakeScratch/TryCompile-y26m5y"
+      binary: "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/build_unity/CMakeFiles/CMakeScratch/TryCompile-y26m5y"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/build_unity/CMakeFiles/CMakeScratch/TryCompile-y26m5y'
+        
+        Run Build Command(s): D:/VisualStudio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d36fa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2026/3/30 22:52:51銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Projects\\SchoolWorkProjects\\firstPaperRalated\\GlobalPose\\carticulate_withoutCompile\\build_unity\\CMakeFiles\\CMakeScratch\\TryCompile-y26m5y\\cmTC_d36fa.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\Projects\\SchoolWorkProjects\\firstPaperRalated\\GlobalPose\\carticulate_withoutCompile\\build_unity\\CMakeFiles\\CMakeScratch\\TryCompile-y26m5y\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_d36fa.dir\\Debug\\cmTC_d36fa.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_d36fa.dir\\Debug\\cmTC_d36fa.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_d36fa.dir\\Debug\\cmTC_d36fa.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_d36fa.dir\\Debug\\\\" /Fd"cmTC_d36fa.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "D:\\Tools\\Cmake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35217 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_d36fa.dir\\Debug\\\\" /Fd"cmTC_d36fa.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "D:\\Tools\\Cmake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          D:\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\Projects\\SchoolWorkProjects\\firstPaperRalated\\GlobalPose\\carticulate_withoutCompile\\build_unity\\CMakeFiles\\CMakeScratch\\TryCompile-y26m5y\\Debug\\cmTC_d36fa.exe" /INCREMENTAL /ILK:"cmTC_d36fa.dir\\Debug\\cmTC_d36fa.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/build_unity/CMakeFiles/CMakeScratch/TryCompile-y26m5y/Debug/cmTC_d36fa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/build_unity/CMakeFiles/CMakeScratch/TryCompile-y26m5y/Debug/cmTC_d36fa.lib" /MACHINE:X64  /machine:x64 cmTC_d36fa.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_d36fa.vcxproj -> D:\\Projects\\SchoolWorkProjects\\firstPaperRalated\\GlobalPose\\carticulate_withoutCompile\\build_unity\\CMakeFiles\\CMakeScratch\\TryCompile-y26m5y\\Debug\\cmTC_d36fa.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_d36fa.dir\\Debug\\cmTC_d36fa.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_d36fa.dir\\Debug\\cmTC_d36fa.tlog\\cmTC_d36fa.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\Projects\\SchoolWorkProjects\\firstPaperRalated\\GlobalPose\\carticulate_withoutCompile\\build_unity\\CMakeFiles\\CMakeScratch\\TryCompile-y26m5y\\cmTC_d36fa.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.30
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/VisualStudio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/Tools/Cmake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/VisualStudio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35217.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:21 (find_package)"
+    name: "Eigen3"
+    configs:
+      -
+        filename: "Eigen3Config.cmake"
+        kind: "cmake"
+      -
+        filename: "eigen3-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Eigen3"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/build_unity/CMakeFiles/pkgRedirects/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/build_unity/CMakeFiles/pkgRedirects/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows/share/eigen3/Eigen3Config.cmake"
+      mode: "config"
+      version: "3.4.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows"
+      ENV{PATH}:
+        - "D:\\Meta Horizon\\Support\\oculus-runtime"
+        - "D:\\DevTools\\Bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "D:\\Tools\\PlasticSCM5\\server"
+        - "D:\\Tools\\PlasticSCM5\\client"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Tools\\Git\\cmd"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "D:\\Tools\\cursor\\resources\\app\\bin"
+        - "D:\\Tools\\Cmake\\bin"
+        - "C:\\Program Files (x86)\\Tencent\\\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177\\dll"
+        - "D:\\Tools\\Nodejs\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\VSCode\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Administrator\\AppData\\Local\\GitHubDesktop\\bin"
+        - "D:\\Tools\\Antigravity\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/carticulate"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/Tools/Cmake"
+        - "C:/Program Files/carticulate"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:23 (find_package)"
+    name: "Sophus"
+    configs:
+      -
+        filename: "SophusConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "sophus-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Sophus"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/build_unity/CMakeFiles/pkgRedirects/SophusConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/build_unity/CMakeFiles/pkgRedirects/sophus-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows/SophusConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows/sophus-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows/share/sophus/SophusConfig.cmake"
+      mode: "config"
+      version: "1.24.6"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows"
+      ENV{PATH}:
+        - "D:\\Meta Horizon\\Support\\oculus-runtime"
+        - "D:\\DevTools\\Bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "D:\\Tools\\PlasticSCM5\\server"
+        - "D:\\Tools\\PlasticSCM5\\client"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Tools\\Git\\cmd"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "D:\\Tools\\cursor\\resources\\app\\bin"
+        - "D:\\Tools\\Cmake\\bin"
+        - "C:\\Program Files (x86)\\Tencent\\\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177\\dll"
+        - "D:\\Tools\\Nodejs\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\VSCode\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Administrator\\AppData\\Local\\GitHubDesktop\\bin"
+        - "D:\\Tools\\Antigravity\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/carticulate"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/Tools/Cmake"
+        - "C:/Program Files/carticulate"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:25 (find_package)"
+    name: "g2o"
+    configs:
+      -
+        filename: "g2oConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "g2o-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "g2o"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/build_unity/CMakeFiles/pkgRedirects/g2oConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/build_unity/CMakeFiles/pkgRedirects/g2o-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows/g2oConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows/g2o-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows/share/g2o/g2oConfig.cmake"
+      mode: "config"
+      version: "1.0.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/Projects/SchoolWorkProjects/firstPaperRalated/GlobalPose/carticulate_withoutCompile/vcpkg_installed/x64-windows"
+      ENV{PATH}:
+        - "D:\\Meta Horizon\\Support\\oculus-runtime"
+        - "D:\\DevTools\\Bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "D:\\Tools\\PlasticSCM5\\server"
+        - "D:\\Tools\\PlasticSCM5\\client"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Tools\\Git\\cmd"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "D:\\Tools\\cursor\\resources\\app\\bin"
+        - "D:\\Tools\\Cmake\\bin"
+        - "C:\\Program Files (x86)\\Tencent\\\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177\\dll"
+        - "D:\\Tools\\Nodejs\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\VSCode\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Administrator\\AppData\\Local\\GitHubDesktop\\bin"
+        - "D:\\Tools\\Antigravity\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/carticulate"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/Tools/Cmake"
+        - "C:/Program Files/carticulate"
+...

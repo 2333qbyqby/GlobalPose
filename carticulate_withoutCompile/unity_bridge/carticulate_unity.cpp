@@ -279,6 +279,183 @@ CU_API int CU_Dynamic_GetJointWorldQuat(int64_t handle,
     }
 }
 
+CU_API int CU_Dynamic_GetMassMatrix(int64_t handle,
+                                    float *out_mass_row_major,
+                                    int out_len)
+{
+    if (!out_mass_row_major)
+        return CU_ERR_INVALID_ARG;
+    std::lock_guard<std::mutex> lock(g_mu);
+    const auto it = g_dyn.find(handle);
+    if (it == g_dyn.end())
+        return CU_ERR_BAD_HANDLE;
+    try {
+        DynamicModel &m = *it->second;
+        const int d = vel_dim(m);
+        if (out_len != d * d)
+            return CU_ERR_INVALID_ARG;
+        Eigen::MatrixXf M = m.mass_matrix();
+        if (M.rows() != d || M.cols() != d)
+            return CU_ERR_EXCEPTION;
+        for (int r = 0; r < d; r++) {
+            for (int c = 0; c < d; c++) {
+                out_mass_row_major[r * d + c] = M(r, c);
+            }
+        }
+        return CU_OK;
+    } catch (...) {
+        return CU_ERR_EXCEPTION;
+    }
+}
+
+CU_API int CU_Dynamic_GetBiasForce(int64_t handle,
+                                   float *out_h,
+                                   int out_len)
+{
+    if (!out_h)
+        return CU_ERR_INVALID_ARG;
+    std::lock_guard<std::mutex> lock(g_mu);
+    const auto it = g_dyn.find(handle);
+    if (it == g_dyn.end())
+        return CU_ERR_BAD_HANDLE;
+    try {
+        DynamicModel &m = *it->second;
+        const int d = vel_dim(m);
+        if (out_len != d)
+            return CU_ERR_INVALID_ARG;
+        Eigen::VectorXf zero = Eigen::VectorXf::Zero(d);
+        Eigen::VectorXf h = m.inverse_dynamics(zero);
+        if (h.size() != d)
+            return CU_ERR_EXCEPTION;
+        Eigen::Map<Eigen::VectorXf>(out_h, d) = h;
+        return CU_OK;
+    } catch (...) {
+        return CU_ERR_EXCEPTION;
+    }
+}
+
+CU_API int CU_Dynamic_InverseDynamics(int64_t handle,
+                                      const float *acc,
+                                      int acc_len,
+                                      float *out_force,
+                                      int out_len)
+{
+    if (!acc || !out_force)
+        return CU_ERR_INVALID_ARG;
+    std::lock_guard<std::mutex> lock(g_mu);
+    const auto it = g_dyn.find(handle);
+    if (it == g_dyn.end())
+        return CU_ERR_BAD_HANDLE;
+    try {
+        DynamicModel &m = *it->second;
+        const int d = vel_dim(m);
+        if (acc_len != d || out_len != d)
+            return CU_ERR_INVALID_ARG;
+        Eigen::Map<const Eigen::VectorXf> a(acc, d);
+        Eigen::VectorXf f = m.inverse_dynamics(a);
+        if (f.size() != d)
+            return CU_ERR_EXCEPTION;
+        Eigen::Map<Eigen::VectorXf>(out_force, d) = f;
+        return CU_OK;
+    } catch (...) {
+        return CU_ERR_EXCEPTION;
+    }
+}
+
+CU_API int CU_Dynamic_GetJointLinearVelocity(int64_t handle,
+                                             int joint_idx,
+                                             const float local_xyz[3],
+                                             float out_world_vxyz[3])
+{
+    if (!local_xyz || !out_world_vxyz)
+        return CU_ERR_INVALID_ARG;
+    std::lock_guard<std::mutex> lock(g_mu);
+    const auto it = g_dyn.find(handle);
+    if (it == g_dyn.end())
+        return CU_ERR_BAD_HANDLE;
+    try {
+        DynamicModel &m = *it->second;
+        if (joint_idx < 0 || joint_idx >= m.get_armature().n_joints)
+            return CU_ERR_INVALID_ARG;
+        Eigen::Vector3f local(local_xyz[0], local_xyz[1], local_xyz[2]);
+        Eigen::Vector3f v = m.get_linear_velocity(joint_idx, local);
+        out_world_vxyz[0] = v.x();
+        out_world_vxyz[1] = v.y();
+        out_world_vxyz[2] = v.z();
+        return CU_OK;
+    } catch (...) {
+        return CU_ERR_EXCEPTION;
+    }
+}
+
+CU_API int CU_Dynamic_GetJointLinearJacobian(int64_t handle,
+                                             int joint_idx,
+                                             const float local_xyz[3],
+                                             float *out_j_row_major,
+                                             int out_len)
+{
+    if (!local_xyz || !out_j_row_major)
+        return CU_ERR_INVALID_ARG;
+    std::lock_guard<std::mutex> lock(g_mu);
+    const auto it = g_dyn.find(handle);
+    if (it == g_dyn.end())
+        return CU_ERR_BAD_HANDLE;
+    try {
+        DynamicModel &m = *it->second;
+        const int d = vel_dim(m);
+        if (out_len != 3 * d)
+            return CU_ERR_INVALID_ARG;
+        if (joint_idx < 0 || joint_idx >= m.get_armature().n_joints)
+            return CU_ERR_INVALID_ARG;
+        Eigen::Vector3f local(local_xyz[0], local_xyz[1], local_xyz[2]);
+        Eigen::MatrixXf J = m.get_linear_Jacobian(joint_idx, local);
+        if (J.rows() != 3 || J.cols() != d)
+            return CU_ERR_EXCEPTION;
+        for (int r = 0; r < 3; r++) {
+            for (int c = 0; c < d; c++) {
+                out_j_row_major[r * d + c] = J(r, c);
+            }
+        }
+        return CU_OK;
+    } catch (...) {
+        return CU_ERR_EXCEPTION;
+    }
+}
+
+CU_API int CU_Dynamic_GetJointLinearJacobianDot(int64_t handle,
+                                                int joint_idx,
+                                                const float local_xyz[3],
+                                                float *out_jdot_row_major,
+                                                int out_len)
+{
+    if (!local_xyz || !out_jdot_row_major)
+        return CU_ERR_INVALID_ARG;
+    std::lock_guard<std::mutex> lock(g_mu);
+    const auto it = g_dyn.find(handle);
+    if (it == g_dyn.end())
+        return CU_ERR_BAD_HANDLE;
+    try {
+        DynamicModel &m = *it->second;
+        const int d = vel_dim(m);
+        if (out_len != 3 * d)
+            return CU_ERR_INVALID_ARG;
+        if (joint_idx < 0 || joint_idx >= m.get_armature().n_joints)
+            return CU_ERR_INVALID_ARG;
+        Eigen::Vector3f local(local_xyz[0], local_xyz[1], local_xyz[2]);
+        Eigen::MatrixXf Jdot = m.get_linear_Jacobian_dot(joint_idx, local);
+        if (Jdot.rows() != 3 || Jdot.cols() != d)
+            return CU_ERR_EXCEPTION;
+        for (int r = 0; r < 3; r++) {
+            for (int c = 0; c < d; c++) {
+                out_jdot_row_major[r * d + c] = Jdot(r, c);
+            }
+        }
+        return CU_OK;
+    } catch (...) {
+        return CU_ERR_EXCEPTION;
+    }
+}
+
 /* ---------- Kinematic ---------- */
 
 CU_API int CU_Kinematic_Create(const char *armature_path_utf8, int64_t *out_handle)
